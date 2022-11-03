@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Event</title>
+    <link rel="stylesheet" href="/styles/newEvt.css">
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <div class="tri-colors">
+                <div class="close"></div>
+                <div class="min"></div>
+                <div class="max"></div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="title-card">
+                <span class="title-card__label">Create an Event</span>
+                <span class="title-card__icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" height="28px" width="28px">
+                        <rect x="64" y="176" width="384" height="256" rx="28.87" ry="28.87" fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="32"></rect><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M144 80h224M112 128h288"></path>
+                    </svg>
+                </span>
+            </div>
+            <div class="title-input">
+                <span class="title-input__placeholder">Title</span>
+                <span class="title-input__charcount">60</span>
+            </div>
+
+            <div class="event-type-toggler">
+                <div class="tggler">
+                </div>
+                <span class="event-type">Event</span>
+                <span class="event-type">Reminder</span>
+            </div>
+
+            <div class="event-color-picker">
+                <span class="label">Color</span>
+                <div class="color-set">
+                    <div class="clr clr-red"></div>
+                    <div class="clr clr-orange"></div>
+                    <div class="clr clr-yellow"></div>
+                    <div class="clr clr-aqua"></div>
+                    <div class="clr clr-blue"></div>
+                    <div class="clr clr-purple"></div>
+                </div>
+            </div>
+
+            <div class="date-input">
+                <span class="label">Date</span>
+                <div class="date-input__form">
+                    <div class="calendar-dropdown">
+                        <span class="calendar-dropdown__current-date">Saturday, 25 Aug 2020</span>
+                        <span class="calendar-dropdown__icon-open">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-6 -6 64 64" height="24px" width="24px"><path d="M9 44q-1.2 0-2.1-.9Q6 42.2 6 41V10q0-1.2.9-2.1Q7.8 7 9 7h3.25V4h3.25v3h17V4h3.25v3H39q1.2 0 2.1.9.9.9.9 2.1v31q0 1.2-.9 2.1-.9.9-2.1.9Zm0-3h30V19.5H9V41Zm0-24.5h30V10H9Zm0 0V10v6.5Z"/></svg>
+                        </span>
+                    </div>
+
+                    <div class="time-section">
+                        <div class="start-time time-dropdown">
+                            <span class="label">19:00</span>
+                            <span class="dd-tggler">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-4 -4 30 30" height="16px" width="16px">
+                                    <path fill="#000000" stroke-width="2px" d="M0 6c0-0.128 0.049-0.256 0.146-0.354 0.195-0.195 0.512-0.195 0.707 0l8.646 8.646 8.646-8.646c0.195-0.195 0.512-0.195 0.707 0s0.195 0.512 0 0.707l-9 9c-0.195 0.195-0.512 0.195-0.707 0l-9-9c-0.098-0.098-0.146-0.226-0.146-0.354z">
+                                    </path>
+                                </svg>
+                            </span>
+                        </div>
+                        <div class="end-time time-dropdown">
+                            <span class="label">20:00</span>
+                            <span class="dd-tggler">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-4 -4 30 30" height="16px" width="16px">
+                                    <path fill="#000000" stroke-width="2px" d="M0 6c0-0.128 0.049-0.256 0.146-0.354 0.195-0.195 0.512-0.195 0.707 0l8.646 8.646 8.646-8.646c0.195-0.195 0.512-0.195 0.707 0s0.195 0.512 0 0.707l-9 9c-0.195 0.195-0.512 0.195-0.707 0l-9-9c-0.098-0.098-0.146-0.226-0.146-0.354z">
+                                    </path>
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="btn-holster">
+                <div class="btn btn-advanced">
+                    <span class="btn-txt">Advanced</span>
+                    <span class="dd-tggler">
+                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-4 -4 30 30" height="16px" width="16px">
+                            <path fill="#000000" stroke-width="2px" d="M0 6c0-0.128 0.049-0.256 0.146-0.354 0.195-0.195 0.512-0.195 0.707 0l8.646 8.646 8.646-8.646c0.195-0.195 0.512-0.195 0.707 0s0.195 0.512 0 0.707l-9 9c-0.195 0.195-0.512 0.195-0.707 0l-9-9c-0.098-0.098-0.146-0.226-0.146-0.354z">
+                            </path>
+                        </svg>
+                    </span>
+                </div>
+
+                <div class="btn-group">
+                    <div class="btn btn-cancel">
+                        <span class="btn-txt">Cancel</span>
+                    </div>
+                    <div class="btn btn-create">
+                        <span class="btn-txt">Create</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
